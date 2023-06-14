@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    top:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+list-style-type: none;
+}
+
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+.cont{
+    width:90%;
+    margin: auto;
+}
+.navbar-nav li{
+   padding-left:10px;
+   font-family: 'Alegreya', serif;
+   font-size:18px;
+   position: relative;
+  
+
+}
+.navbar-nav li.line::after{
+    content: "";
+    width:70px;
+    height:3px;
+    background-color: #8E7754;
+    position: absolute;
+    top:-16px;
+    left:0;
+
+}
+.navbar-nav li a{
+    color:rgb(0 0 0 / 40%);
+}
+.navbar-brand img{
+    width:50%;
+}
+header{
+background-image:url('../img/drew-coffman-1872.jpg');
+background-size: cover;
+height:40vh;
+background-position:100% 100%;
+}
+
+.overlay{
+    background-color:rgb(0 0 0 / 30%);
+    height:40vh;
+    
+   
+}
+
+.header-info h1{
+    font-family: 'Alegreya', serif;
+    font-size:56px;
+    font-weight:400;
+}
+
+section{
+padding-top:80px;
+}
+
+
+section .about-info h3{
+    font-size:32px;
+    font-weight:400;
+   color: rgb(48, 48, 48);
+   font-family: 'Alegreya', serif;
+}
+section .about-info p{
+    font-size: 18.3872px;
+    line-height: 34.2002px;
+    color: rgb(96, 96, 96);
+    font-family: 'Alegreya Sans', sans-serif;
+
+    
+
+}
+
+section .about-info p.para2{
+    margin-top: 50px;
+}
+
+
+/* start features */
+section.feat{
+background-color:#F8F8F8;
+margin-top:70px;
+}
+
+section  .main-content i{
+    color: #8E7754;
+}
+section  .main-content h3{
+    font-family: 'Alegreya', serif;
+    font-size:30px;
+    font-weight: 400;
+    color:rgb(48, 48, 48);
+
+}
+
+section .feat-info h4{
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight:500;
+    color:rgb(48, 48, 48);
+    margin-bottom:20px;
+}
+
+section .feat-info p{
+    font-size: 17px;
+    line-height:31.62px;
+    margin-bottom:60px;
+
+}
+
+.color-back{
+background-color: #8E7754;
+color:white;
+text-align: center;
+padding:70px;
+}
+
+.color-back i{
+    font-size:35px;
+    margin-bottom:30px;
+}
+
+.color-back .back-info h2{
+font-size:52px;
+line-height:52px;
+margin-bottom:20px;
+}
+.color-back .back-info p{
+    font-size: 20px;
+}
+
+/* End features */
+
+/* start footer */
+.footer{
+    background-color:#403D38;
+    padding-top:60px;
+}
+.footer .footer-content h3{
+color:white;
+font-size: 18px;
+font-family: 'Alegreya', serif;
+margin-bottom:40px;
+padding-left:30px;
+}
+
+.footer .footer-content p{
+    font-size:16px;
+    color:rgb(255 255 255 /50%);
+    line-height:31.62px;
+}
+
+.footer .footer-content li p::before{
+    content: '\f054';
+    font-family:FontAwesome;
+    font-size:8px;
+    padding-right:10px;
+}
+.footer .footer-content li:not(li:last-child){
+    border-bottom:1px solid rgb(255 255 255 /10%);
+}
+
+
+/* End footer */
+
+
+
